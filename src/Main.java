@@ -31,6 +31,12 @@ public class Main {
 				redoublants_A.add(i);
 			}
 		}
+
+	//Parcours 
+	for (Etudiant e : filiere_A ) {
+		System.out.println(e);
+		
+	}
 }
 // mooyenne
 		  public static double calculerMoyenneGenerale(List<Etudiant> etudiants) {
@@ -38,7 +44,9 @@ public class Main {
 		        for (Etudiant etudiant : etudiants) {
 		            somme += etudiant.getMoyenne();
 		        }
-		        return somme / etudiants.size(); }
-	}
+		        return somme / etudiants.size(); 
+		        }
+}
+
 
 	
